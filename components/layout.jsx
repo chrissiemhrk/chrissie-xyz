@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
             <GrMenu fontSize={25} />
           </button>
           {showNav && (
-            <div className="absolute bg-emerald-600 text-slate-100 top-0 left-0 w-full p-8 md:hidden">
+            <div className="absolute bg-emerald-600 text-slate-100 top-0 left-0 w-full p-8 mobile-menu md:hidden">
               <div className="flex justify-between">
                 <Link href="/">
                   <a className="flex">
