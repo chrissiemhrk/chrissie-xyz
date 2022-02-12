@@ -23,14 +23,14 @@ body {
 }
 
 .navigation-links li a.active {
-  background: linear-gradient(to right, #059669 2px, transparent 2px) 0 0,
-    linear-gradient(to right, #059669 2px, transparent 2px) 0 100%,
-    linear-gradient(to left, #059669 2px, transparent 2px) 100% 0,
-    linear-gradient(to left, #059669 2px, transparent 2px) 100% 100%,
-    linear-gradient(to bottom, #059669 2px, transparent 2px) 0 0,
-    linear-gradient(to bottom, #059669 2px, transparent 2px) 100% 0,
-    linear-gradient(to top, #059669 2px, transparent 2px) 0 100%,
-    linear-gradient(to top, #059669 2px, transparent 2px) 100% 100%;
+  background: linear-gradient(to right, #b91c1c 2px, transparent 2px) 0 0,
+    linear-gradient(to right, #b91c1c 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, #b91c1c 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, #b91c1c 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, #b91c1c 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, #b91c1c 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, #b91c1c 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, #b91c1c 2px, transparent 2px) 100% 100%;
   background-repeat: no-repeat;
   background-size: 6px 6px;
 }

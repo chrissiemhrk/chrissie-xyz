@@ -93,7 +93,7 @@ const Layout = ({ children }) => {
                   <GrClose className="close-menu" fontSize={25} />
                 </button>
               </div>
-              <ul className="mt-10">
+              <ul className="mt-10" onClick={() => setShowNav(false)}>
                 <li className="mb-3">
                   <Link href="/blog">
                     <a className="py-2">Blog</a>
@@ -114,7 +114,7 @@ const Layout = ({ children }) => {
           )}
         </nav>
       </header>
-      <main className="mb-auto  mx-auto">{children}</main>
+      <main className="mb-auto mx-auto w-5/6 md:w-7/12">{children}</main>
       <footer className="">this is a footer</footer>
     </div>
   )
