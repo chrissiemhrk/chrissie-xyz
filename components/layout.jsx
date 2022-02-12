@@ -115,7 +115,53 @@ const Layout = ({ children }) => {
         </nav>
       </header>
       <main className="mb-auto mx-auto w-5/6 md:w-7/12">{children}</main>
-      <footer className="">this is a footer</footer>
+      <footer className="border-t border-black mx-auto w-5/6 md:w-7/12 text-slate-800 text-sm">
+        <nav className="p-5 flex justify-between">
+          <ul className="flex flex-col">
+            <li className="mb-2 hover:text-red-800">
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li className="mb-2 hover:text-red-800">
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+            </li>
+            <li className="hover:text-red-800">
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+            </li>
+          </ul>
+          <ul className="flex flex-col">
+            <li className="mb-2 hover:text-red-800">
+              <Link href="/snippets">
+                <a>Snippets</a>
+              </Link>
+            </li>
+            <li className="hover:text-red-800">
+              <Link href="/uses">
+                <a>Uses</a>
+              </Link>
+            </li>
+          </ul>
+          <ul className="flex flex-col">
+            <li className="mb-2 hover:text-red-800">
+              <a href="https://github.com/chrissiemhrk">GitHub</a>
+            </li>
+            <li className="mb-2 hover:text-red-800">
+              <a href="https://twitter.com/chrissiemhrk">Twitter</a>
+            </li>
+            <li className="mb-2 hover:text-red-800">
+              <a href="https://instagram.com/chrissiemhrk">Instagram</a>
+            </li>
+            <li className="hover:text-red-800">
+              <a href="https://linkedin.com/in/chrissiemuhorakeye">LinkedIn</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </div>
   )
 }
