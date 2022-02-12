@@ -1,65 +1,40 @@
-@font-face {
-  font-family: 'Inter var';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 450;
-  font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
-}
-b,
-strong,
-h3,
-h4,
-h5,
-h6 {
-  font-variation-settings: 'wght' 650;
-}
-h1 {
-  font-variation-settings: 'wght' 850;
-}
-h2 {
-  font-variation-settings: 'wght' 750;
-}
-
-@media screen and (min-device-pixel-ratio: 1.5),
-  screen and (min-resolution: 1.5dppx) {
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-}
-
-details summary {
-  cursor: pointer;
-}
-
-img.next-image {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
   margin: 0;
 }
 
-.prose a {
-  color: #0074de;
+.navigation-links a:hover {
+  background: linear-gradient(to right, #78716c 2px, transparent 2px) 0 0,
+    linear-gradient(to right, #78716c 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, #78716c 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, #78716c 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, #78716c 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, #78716c 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, #78716c 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, #78716c 2px, transparent 2px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 6px 6px;
 }
 
-.nav-line .nav-link {
-  color: #69778c;
+.navigation-links li a.active {
+  background: linear-gradient(to right, #059669 2px, transparent 2px) 0 0,
+    linear-gradient(to right, #059669 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, #059669 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, #059669 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, #059669 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, #059669 2px, transparent 2px) 100% 0,
+    linear-gradient(to top, #059669 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, #059669 2px, transparent 2px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 6px 6px;
+}
+
+.close-menu path {
+  stroke: #f1f5f9;
 }
