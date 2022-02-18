@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   const [showNav, setShowNav] = React.useState(false)
   return (
     <div className="flex flex-col h-screen justify-between container mx-auto w-5/6 md:w-3/4">
-      <header className="py-5 font-medium mb-10">
+      <header className="py-5 mb-10">
         <nav className="flex justify-between items-center">
           <Link href="/">
             <a className="flex">
@@ -17,8 +17,8 @@ const Layout = ({ children }) => {
                 <Image
                   src={ProfilePic}
                   alt="Picture of the Chrissie"
-                  width={50}
-                  height={50}
+                  width={45}
+                  height={45}
                 />
               </span>
               <span className="flex flex-col md:ml-3">
@@ -115,7 +115,7 @@ const Layout = ({ children }) => {
         </nav>
       </header>
       <main className="mb-auto mx-auto w-5/6 md:w-7/12">{children}</main>
-      <footer className="border-t border-black mx-auto w-5/6 md:w-7/12 text-slate-800 text-sm">
+      <footer className="border-t border-black mx-auto w-5/6 md:w-7/12 text-slate-800 text-sm mt-20">
         <nav className="p-5 flex justify-between">
           <ul className="flex flex-col">
             <li className="mb-2 hover:text-red-800">
