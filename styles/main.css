@@ -52,3 +52,34 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.blog-post h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.blog-post p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 20px 0;
+}
+
+.blog-post code {
+  background: #f3f4f6;
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+}
+
+.blog-post pre code {
+  background: none;
+  border-radius: 0;
+}

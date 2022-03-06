@@ -11,7 +11,7 @@ Making your website responsive is a must nowadays, nearly 53% of people all arou
 
 You want your website to be accessible to everyone no matter their device be it small or large screens. In this article, I'll be sharing what methods I use to make my websites responsive.
 
-#### Mobile first design
+## Mobile first design
 
 Mobile First means designing for mobile before designing for desktop. It will also make the page load faster on a smaller screen.
 
@@ -19,7 +19,7 @@ When you're starting a new project make sure to always design it for mobile scre
 
 Personally, I found that expanding my design to fit bigger screens is much easier than trying to compress the design to fit smaller screens.
 
-#### Set the viewport
+## Set the viewport
 
 The viewport is the area of the screen that the browser can render content to, to make a website responsive it has to be set properly, and to do that we use a meta tag.
 
@@ -31,7 +31,7 @@ The viewport is the area of the screen that the browser can render content to, t
 
 - initial scale 1 set the dip to CSS pixel ratio to one, CSS pixels are the ones we work with most of the time and without initial scale set to one, the width of some browser would stay the same when you rotate your phone or tablet to landscape mode.
 
-#### Use relative units
+## Use relative units
 
 To avoid fixed images, use a relative unit like % instead of px.
 
@@ -46,7 +46,7 @@ video {
 // I always put this in my CSS file just to be safe
 ```
 
-#### Tap target should be wide enough
+## Tap target should be wide enough
 
 Tap targets (buttons, input field, anything the user will touch, tap, click) must be at least 40px wide and tall. The recommended height and width are 48px.
 
@@ -62,13 +62,13 @@ input {
 // Again, I always put this in my CSS file just to be safe
 ```
 
-#### Use flexbox
+## Use flexbox
 
 Flexbox makes designing for all types of screens easier. Its a layout model that allows responsive elements within a container to be automatically arranged depending on the screen size.
 
 Trust me using flexbox will make your life easier.
 
-#### Use media queries
+## Use media queries
 
 Media queries are used to rearrange your design to fit different screens. The most commonly used are max-width and min-width.
 
@@ -90,7 +90,7 @@ is greater than 500px;
 // If you started mobile-first, I recommend using min-width
 ```
 
-#### Determine breakpoints
+## Determine breakpoints
 
 By breakpoints I mean the width you'll be using with media queries to change the layout accordingly. There are two types of breakpoints:
 
