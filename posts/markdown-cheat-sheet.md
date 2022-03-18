@@ -1,7 +1,7 @@
 ---
 title: Markdown cheat sheet
 excerpt: "In this article, I'm going to show you the basics of markdown syntax."
-date: 'August 18th, 2020'
+date: 'August 18, 2020'
 cover: '/images/posts/markdown.png'
 cover_alt: 'Markdown logo'
 tags: ['markdown', 'cheat sheet']

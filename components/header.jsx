@@ -27,7 +27,7 @@ function Header() {
         </Link>
         <>
           <ul className="hidden md:flex justify-between items-center w-94">
-            <li className="mr-5">
+            <li className="mr-5 hover:underline">
               <Link href="/blog">
                 <a
                   className={router.pathname == '/blog' ? 'active p-2' : 'p-2'}
@@ -36,7 +36,7 @@ function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-5">
+            <li className="mr-5 hover:underline">
               <Link href="/projects">
                 <a
                   className={
@@ -47,7 +47,7 @@ function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-5">
+            <li className="mr-5 hover:underline">
               <Link href="/snippets">
                 <a
                   className={
@@ -58,18 +58,7 @@ function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-5">
-              <Link href="/contact">
-                <a
-                  className={
-                    router.pathname == '/contact' ? 'active p-2' : 'p-2'
-                  }
-                >
-                  Contact
-                </a>
-              </Link>
-            </li>
-            <li className="mr-5">
+            <li className="mr-5 hover:underline">
               <Link href="/uses">
                 <a
                   className={router.pathname == '/uses' ? 'active p-2' : 'p-2'}
@@ -78,7 +67,7 @@ function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-10">
+            <li className="mr-10 hover:underline">
               <Link href="/resume.pdf">
                 <a
                   className={

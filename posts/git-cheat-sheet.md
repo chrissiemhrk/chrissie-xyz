@@ -1,7 +1,7 @@
 ---
 title: Git cheat sheet
 excerpt: 'List of git terminologies and most common commands.'
-date: 'July 26th, 2020'
+date: 'July 26, 2020'
 cover: '/images/posts/git.png'
 cover_alt: 'Git logo'
 tags: ['git', 'cheat sheet']

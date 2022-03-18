@@ -1,7 +1,7 @@
 ---
 title: How to use interactive rebase in git
 excerpt: 'A short guide on how to use interactive rebase in git.'
-date: 'June 26th, 2021'
+date: 'June 26, 2021'
 cover: '/images/posts/git.png'
 cover_alt: 'Git logo'
 tags: ['git']

@@ -1,7 +1,7 @@
 ---
 title: How to write a good commit message
 excerpt: "In this article, I'm going to show you how to write a good commit message."
-date: 'June 30th, 2020'
+date: 'June 30, 2020'
 cover: '/images/posts/git.png'
 cover_alt: 'Git logo'
 tags: ['git']

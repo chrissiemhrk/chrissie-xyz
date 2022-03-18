@@ -1,7 +1,7 @@
 ---
 title: 'Beginners guide to css flexbox - part one'
 excerpt: "In this article, I'll be giving you the main properties of flexbox and showing you how they work."
-date: 'October 7th, 2020'
+date: 'October 7, 2020'
 cover: '/images/posts/css.png'
 cover_alt: 'CSS logo'
 tags: ['css']

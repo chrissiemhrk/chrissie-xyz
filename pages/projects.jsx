@@ -1,7 +1,7 @@
 import React from 'react'
 
 const projects = () => {
-  return <div>this is the projects page</div>
+  return <div>Coming soon</div>
 }
 
 export default projects

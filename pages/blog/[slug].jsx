@@ -13,13 +13,13 @@ const postPage = ({ frontmatter: { title, date }, slug, content }) => {
     }
   }, [])
   return (
-    <section className="blog-post">
-      <h1 className="text-3xl mb-2">{title}</h1>
-      <small className="italic">Posted on {date}</small>
-      <ReactMarkdown children={content} className="my-20" />
-      <Link href="/">
-        <a className="underline font-medium">&#8592; Go Back</a>
+    <section className="blog-post pb-12 flex-row">
+      <Link href="/blog">
+        <a className="font-light fixed left-80">&#8592; Blog</a>
       </Link>
+      <h1 className="text-3xl mb-2 font-normal">{title}</h1>
+      <small className="text-stone-300">Posted on {date}</small>
+      <ReactMarkdown children={content} className="my-10 leading-7" />
     </section>
   )
 }

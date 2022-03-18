@@ -1,7 +1,7 @@
 ---
 title: 'Beginners guide to css flexbox - part two'
 excerpt: "In this second part, I'll be giving you flexbox properties that affect the flex items along with how they work."
-date: 'October 22nd, 2020'
+date: 'October 22, 2020'
 cover: '/images/posts/css.png'
 cover_alt: 'CSS logo'
 tags: ['css']

@@ -1,7 +1,7 @@
 ---
 title: How to deploy your website to github
 excerpt: "In this article, I'm going to show you how I deploy websites using Github pages."
-date: 'September 2nd, 2020'
+date: 'September 2, 2020'
 cover: '/images/posts/github.png'
 cover_alt: 'Github logo'
 tags: ['github', 'deployment']

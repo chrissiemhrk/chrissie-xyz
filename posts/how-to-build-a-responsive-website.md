@@ -1,7 +1,7 @@
 ---
 title: How to build a responsive website
 excerpt: 'Learn how to build a responsive website using HTML and CSS.'
-date: 'August 7th, 2020'
+date: 'August 7, 2020'
 cover: '/images/posts/responsive.png'
 cover_alt: 'Responsive logo'
 tags: ['responsive', 'html', 'css']

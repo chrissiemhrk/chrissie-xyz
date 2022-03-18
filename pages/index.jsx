@@ -4,7 +4,7 @@ const index = () => {
   return (
     <section>
       <h1 className="text-3xl font-semibold mb-10">Chrissie Muhorakeye</h1>
-      <section>
+      <section className="leading-7">
         <p className="mb-5 font-light">
           I've always loved computers and the internet, ever since I was a kid.
           I was in high school when I built my first program for a Computer
@@ -28,7 +28,7 @@ const index = () => {
           studying as much as possible about frontend design and development!
         </p>
       </section>
-      <section className="mt-20">
+      <section className="mt-20 leading-7">
         <p className="mb-5 font-light">
           Find me on:{' '}
           <a

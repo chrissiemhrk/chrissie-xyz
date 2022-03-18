@@ -1,7 +1,7 @@
 ---
 title: What is semantic HTML and why should you use it?
 excerpt: 'The what, why, and how of semantic HTML.'
-date: 'January 19th, 2021'
+date: 'January 19, 2021'
 cover: '/images/posts/html.png'
 cover_alt: 'HTML logo'
 tags: ['HTML', 'Accessibility']
