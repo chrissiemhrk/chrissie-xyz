@@ -25,7 +25,7 @@ const contact = () => {
           <span className="flex items-center">
             <span className="mr-2">
               <Image src={Github} alt="Github logo" width={25} height={25} />
-            </span>{' '}
+            </span>
             GitHub:
           </span>
           <a

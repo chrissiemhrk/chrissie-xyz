@@ -1,65 +1,68 @@
 import React from 'react'
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import Post from '../components/post'
-const index = ({ posts }) => {
+
+const index = () => {
   return (
     <section>
-      <h1 className="text-3xl font-semibold mb-10">Hey, I'm Chrissie</h1>
-      <p className="mb-20">
-        I’m a Frontend Developer and UI Designer based in Kigali. I am currently
-        at the Adventist University of Central Africa (AUCA) in Software
-        Engineering. <br />
-        <br />
-        By day, you can find me writing for my blog, coming up with new designs
-        on Figma, or programming with either ReactJS or VueJS. <br />
-        <br />
-        By night, I’m typically spending time with my family, watching YouTube
-        videos or reading books. You can reach out on Twitter{' '}
-        <a
-          href="https://twitter.com/chrissiemhrk"
-          className="border-b border-red-800 text-red-800"
-        >
-          @chrissiemhrk
-        </a>{' '}
-        or via email:{' '}
-        <a
-          href="mailto:chrissiemhrk@gmail.com"
-          className="border-b border-red-800 text-red-800"
-        >
-          chrissiemhrk@gmail.com
-        </a>
-        .
-      </p>
-      <h2 className="text-xl font-medium mb-10">Recent Articles</h2>
-      {posts.map((post) => {
-        return <Post post={post} key={post.slug} />
-      })}
+      <h1 className="text-3xl font-semibold mb-10">Chrissie Muhorakeye</h1>
+      <section>
+        <p className="mb-5 font-light">
+          I've always loved computers and the internet, ever since I was a kid.
+          I was in high school when I built my first program for a Computer
+          Science class. I fell in love with it and I decided right then and
+          there that programming would be my future.
+        </p>
+        <p className="mb-5 font-light">
+          The first language I learned was Scratch, and after that came C and
+          Python. After taking a few classes in high school, though, I ran into
+          a problem: the curriculum didn't cover web development at all. So I
+          searched the internet for courses to learn web development and came
+          upon FreeCodeCamp, where I taught myself the fundamentals of frontend
+          web development.
+        </p>
+        <p className="mb-5 font-light">
+          Now I work as a frontend developer at Ossix Technologies, where we're
+          building 2u Money — a financial platform that lets users send money to
+          anybody, anywhere in Africa. In my free time, when I'm not reading
+          manga or watching YouTube videos (or k-dramas), you can find me
+          experimenting with new web technologies, writing for my blog, and
+          studying as much as possible about frontend design and development!
+        </p>
+      </section>
+      <section className="mt-20">
+        <p className="mb-5 font-light">
+          Find me on:{' '}
+          <a
+            href="https:/github.com/chrissiemhrk"
+            className="underline font-normal"
+          >
+            GitHub
+          </a>
+          ,{' '}
+          <a
+            href="https:/twitter.com/chrissiemhrk"
+            className="underline font-normal"
+          >
+            Twitter
+          </a>
+          ,{' '}
+          <a
+            href="https:/linkedin.com/in/chrissiemhrk"
+            className="underline font-normal"
+          >
+            LinkedIn
+          </a>
+        </p>
+        <p className="mb-5 font-light">
+          Mail me at{' '}
+          <a
+            href="mailto:chrissiemhrk@gmail.com"
+            className="underline font-normal"
+          >
+            chrissiemhrk@gmail.com
+          </a>
+        </p>
+      </section>
     </section>
   )
 }
 export default index
-
-export async function getStaticProps() {
-  const files = fs.readdirSync(path.join(process.cwd(), 'posts'))
-  const posts = files.map((filename) => {
-    const slug = filename.replace('.md', '')
-    const markdownWithMeta = fs.readFileSync(
-      path.join(process.cwd(), 'posts', filename),
-      'utf8'
-    )
-
-    const { data: frontmatter } = matter(markdownWithMeta)
-    return {
-      slug,
-      frontmatter
-    }
-  })
-
-  return {
-    props: {
-      posts: posts
-    }
-  }
-}

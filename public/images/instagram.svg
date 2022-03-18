@@ -5,10 +5,10 @@
 <g id="XMLID_13_">
 	
 		<linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.5714" x2="275.517" y2="549.7202" gradientTransform="matrix(1 0 0 -1 0 554)">
-		<stop  offset="0" style="stop-color:#E09B3D"/>
-		<stop  offset="0.3" style="stop-color:#C74C4D"/>
-		<stop  offset="0.6" style="stop-color:#C21975"/>
-		<stop  offset="1" style="stop-color:#7024C4"/>
+		<stop  offset="0" style="stop-color:#fafafa"/>
+		<stop  offset="0.3" style="stop-color:#fafafa"/>
+		<stop  offset="0.6" style="stop-color:#fafafa"/>
+		<stop  offset="1" style="stop-color:#fafafa"/>
 	</linearGradient>
 	<path id="XMLID_17_" style="fill:url(#XMLID_2_);" d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722
 		c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156
@@ -17,10 +17,10 @@
 		c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"/>
 	
 		<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.5714" x2="275.517" y2="549.7202" gradientTransform="matrix(1 0 0 -1 0 554)">
-		<stop  offset="0" style="stop-color:#E09B3D"/>
-		<stop  offset="0.3" style="stop-color:#C74C4D"/>
-		<stop  offset="0.6" style="stop-color:#C21975"/>
-		<stop  offset="1" style="stop-color:#7024C4"/>
+		<stop  offset="0" style="stop-color:#fafafa"/>
+		<stop  offset="0.3" style="stop-color:#fafafa"/>
+		<stop  offset="0.6" style="stop-color:#fafafa"/>
+		<stop  offset="1" style="stop-color:#fafafa"/>
 	</linearGradient>
 	<path id="XMLID_81_" style="fill:url(#XMLID_3_);" d="M275.517,133C196.933,133,133,196.933,133,275.516
 		s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6
@@ -28,10 +28,10 @@
 		C362.6,323.611,323.611,362.6,275.517,362.6z"/>
 	
 		<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="418.306" y1="4.5714" x2="418.306" y2="549.7202" gradientTransform="matrix(1 0 0 -1 0 554)">
-		<stop  offset="0" style="stop-color:#E09B3D"/>
-		<stop  offset="0.3" style="stop-color:#C74C4D"/>
-		<stop  offset="0.6" style="stop-color:#C21975"/>
-		<stop  offset="1" style="stop-color:#7024C4"/>
+		<stop  offset="0" style="stop-color:#fafafa"/>
+		<stop  offset="0.3" style="stop-color:#fafafa"/>
+		<stop  offset="0.6" style="stop-color:#fafafa"/>
+		<stop  offset="1" style="stop-color:#fafafa"/>
 	</linearGradient>
 	<circle id="XMLID_83_" style="fill:url(#XMLID_4_);" cx="418.306" cy="134.072" r="34.149"/>
 </g>
