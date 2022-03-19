@@ -15,7 +15,7 @@ const postPage = ({ frontmatter: { title, date }, slug, content }) => {
   return (
     <section className="blog-post pb-12 flex-row">
       <Link href="/blog">
-        <a className="font-light lg:fixed left-80">&#8592; Blog</a>
+        <a className="  lg:fixed left-80">&#8592; Blog</a>
       </Link>
       <h1 className="text-3xl mb-2 mt-10 lg:mt-0 font-normal">{title}</h1>
       <small className="text-stone-300">Posted on {date}</small>
