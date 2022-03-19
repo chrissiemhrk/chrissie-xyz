@@ -11,7 +11,7 @@ const projects = () => {
         className="flex items-center justify-between cursor-pointer border-b border-stone-700 py-3"
       >
         2u money • Ossix Technologies • Frontend Development • Technical:
-        ReactJs + NextJs + TypeScript + JavaScript • https://2u.money/
+        ReactJs + JavaScript • https://2u.money/
       </a>
       <a
         href="https://www.kalisana.be/"
