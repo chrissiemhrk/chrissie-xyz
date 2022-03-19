@@ -63,3 +63,7 @@ body {
   background: none;
   border-radius: 0;
 }
+
+p {
+  line-height: 1.85rem;
+}

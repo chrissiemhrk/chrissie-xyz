@@ -2,9 +2,9 @@ import React from 'react'
 
 const index = () => {
   return (
-    <section>
+    <section className="pb-10">
       <h1 className="text-3xl font-semibold mb-10">Chrissie Muhorakeye</h1>
-      <section className="leading-7">
+      <section>
         <p className="mb-5 font-light">
           I've always loved computers and the internet, ever since I was a kid.
           I was in high school when I built my first program for a Computer
@@ -28,8 +28,29 @@ const index = () => {
           studying as much as possible about frontend design and development!
         </p>
       </section>
-      <section className="mt-20 leading-7">
-        <p className="mb-5 font-light">
+      <section className="mt-10">
+        <h2 className="font-medium mb-3">Expertise</h2>
+        <div className="flex flex-row">
+          <div className="basis-1/5">
+            <p>HTML</p>
+            <p>CSS, SCSS</p>
+          </div>
+          <div className="basis-1/3">
+            <p>VanillaJS, ReactJs, NextJs</p>
+            <p>TypeScript</p>
+          </div>
+          <div className="basis-1/4">
+            <p>Wordpress (Elementor, Divi)</p>
+            <p>Wix </p>
+          </div>
+          <div className="basis-1/3">
+            <p>Figma</p>
+          </div>
+        </div>
+      </section>
+      <section className="mt-10">
+        <h2 className="font-medium mb-3">Let's talk</h2>
+        <p>
           Find me on:{' '}
           <a
             href="https:/github.com/chrissiemhrk"
@@ -52,7 +73,7 @@ const index = () => {
             LinkedIn
           </a>
         </p>
-        <p className="mb-5 font-light">
+        <p>
           Mail me at{' '}
           <a
             href="mailto:chrissiemhrk@gmail.com"
