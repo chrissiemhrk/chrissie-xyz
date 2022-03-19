@@ -58,23 +58,12 @@ function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-5 hover:underline">
+            <li className="mr-10 hover:underline">
               <Link href="/uses">
                 <a
                   className={router.pathname == '/uses' ? 'active p-2' : 'p-2'}
                 >
                   Uses
-                </a>
-              </Link>
-            </li>
-            <li className="mr-10 hover:underline">
-              <Link href="/resume.pdf">
-                <a
-                  className={
-                    router.pathname == '/resume' ? 'active p-2' : 'p-2'
-                  }
-                >
-                  Resume
                 </a>
               </Link>
             </li>
