@@ -15,22 +15,12 @@ body {
   font-weight: 300;
 }
 
-.close-menu path {
-  stroke: #f1f5f9;
+.menu-icon path {
+  stroke: #fafafa;
 }
 
 .mobile-menu {
   animation: fadeIn 0.3s ease-in both;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 1;
-    transform: translate3d(0, -20%, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
 }
 
 .blog-post h2 {

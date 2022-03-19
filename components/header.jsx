@@ -6,7 +6,6 @@ import Initials from '../public/images/logo.svg'
 import { GrMenu, GrClose } from 'react-icons/gr'
 import Github from '../public/images/github.svg'
 import Twitter from '../public/images/twitter.svg'
-import Instagram from '../public/images/instagram.svg'
 import Linkedin from '../public/images/linkedin.svg'
 function Header() {
   const router = useRouter()
@@ -15,7 +14,7 @@ function Header() {
     <header className="py-5 mb-10">
       <nav className="flex justify-between items-center">
         <Link href="/">
-          <a className="flex flex-col md:ml-3">
+          <a className="flex flex-col z-50 md:ml-3">
             <Image
               src={Initials}
               alt="Chrissie Muhorakeye"
@@ -95,48 +94,42 @@ function Header() {
           </ul>
         </>
         <button onClick={() => setShowNav(true)} className="block md:hidden">
-          <GrMenu fontSize={25} />
+          <GrMenu fontSize={25} className="menu-icon" />
         </button>
         {showNav && (
-          <div className="absolute bg-emerald-600 text-slate-100 top-0 left-0 w-full p-8 mobile-menu md:hidden">
-            <div className="flex justify-between">
-              <Link href="/">
-                <a className="flex">
-                  <span className="hidden md:block">
-                    <Image
-                      src={ProfilePic}
-                      alt="Picture of the Chrissie"
-                      width={50}
-                      height={50}
-                    />
-                  </span>
-                  <span className="flex flex-col md:ml-3">
-                    <span>Chrissie Muhorakeye</span>
-                    <span>Frontend Developer & UI Designer</span>
-                  </span>
-                </a>
-              </Link>
-              <button
-                onClick={() => setShowNav(false)}
-                className="block md:hidden"
-              >
-                <GrClose className="close-menu" fontSize={25} />
-              </button>
-            </div>
-            <ul className="mt-10" onClick={() => setShowNav(false)}>
-              <li className="mb-3">
+          <div
+            className="absolute top-0 left-0 w-full border-b md:hidden"
+            style={{
+              backgroundColor: '#181818',
+              padding: '1.25rem 1.6rem',
+              borderBottomColor: '#fafafa'
+            }}
+          >
+            <button
+              onClick={() => setShowNav(false)}
+              className="block float-right md:hidden pr-2  pt-3.5"
+            >
+              <GrClose className="menu-icon" fontSize={25} />
+            </button>
+            <ul className="pt-10 px-2" onClick={() => setShowNav(false)}>
+              <li className="mb-3 mt-8">
                 <Link href="/blog">
-                  <a className="py-2">Blog</a>
+                  <a>Blog</a>
+                </Link>
+              </li>
+              <li className="mb-3">
+                <Link href="/projects">
+                  <a>Projects</a>
                 </Link>
               </li>
               <li className="mb-3">
                 <Link href="/snippets">
-                  <a className="py-2">Snippets</a>
+                  <a>Snippets</a>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <a className="py-2">Contact</a>
+                <Link href="/uses">
+                  <a>Uses</a>
                 </Link>
               </li>
             </ul>

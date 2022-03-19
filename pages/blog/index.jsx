@@ -6,11 +6,11 @@ import Post from '../../components/post'
 
 const blog = ({ posts }) => {
   return (
-    <div>
+    <section className="pb-10">
       {posts.map((post) => {
         return <Post post={post} key={post.slug} />
       })}
-    </div>
+    </section>
   )
 }
 

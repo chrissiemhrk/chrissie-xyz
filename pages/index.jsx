@@ -30,20 +30,20 @@ const index = () => {
       </section>
       <section className="mt-10">
         <h2 className="font-medium mb-3">Expertise</h2>
-        <div className="flex flex-row">
-          <div className="basis-1/5">
+        <div className="flex flex-col md:flex-row">
+          <div className="basis-1/2 md:basis-1/5">
             <p>HTML</p>
             <p>CSS, SCSS</p>
           </div>
-          <div className="basis-1/3">
+          <div className="basis-1/2 md:basis-1/3">
             <p>VanillaJS, ReactJs, NextJs</p>
             <p>TypeScript</p>
           </div>
-          <div className="basis-1/4">
+          <div className="basis-1/2 md:basis-1/4">
             <p>Wordpress (Elementor, Divi)</p>
             <p>Wix </p>
           </div>
-          <div className="basis-1/3">
+          <div className="basis-1/2 md:basis-1/3">
             <p>Figma</p>
           </div>
         </div>
