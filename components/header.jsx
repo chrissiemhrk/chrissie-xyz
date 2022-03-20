@@ -46,7 +46,7 @@ function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-5 hover:underline">
+            <li className="mr-10 hover:underline">
               <Link href="/snippets">
                 <a
                   className={
@@ -54,15 +54,6 @@ function Header() {
                   }
                 >
                   Snippets
-                </a>
-              </Link>
-            </li>
-            <li className="mr-10 hover:underline">
-              <Link href="/uses">
-                <a
-                  className={router.pathname == '/uses' ? 'active p-2' : 'p-2'}
-                >
-                  Uses
                 </a>
               </Link>
             </li>
@@ -125,11 +116,6 @@ function Header() {
               <li className="mb-3">
                 <Link href="/snippets">
                   <a>Snippets</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/uses">
-                  <a>Uses</a>
                 </Link>
               </li>
             </ul>

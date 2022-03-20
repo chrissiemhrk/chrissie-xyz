@@ -7,7 +7,7 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Chrissie Muhorakeye - Developer & Designer</title>
+        <title>Chrissie Muhorakeye</title>
       </Head>
       <Layout>
         <Component {...pageProps} />

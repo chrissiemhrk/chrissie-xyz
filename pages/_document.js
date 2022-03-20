@@ -9,10 +9,8 @@ class MyDocument extends Document {
   render() {
     const meta = {
       title: 'Chrissie Muhorakeye',
-      description:
-        'Hi, I’m Chrissie — a Frontend Developer based in Kigali. Discover useful resources, snippets, and blog posts.',
-      image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+      description: 'Chrissie Muhorakeye’s website.',
+      image: '../public/images/metaimage.avif'
     }
 
     return (
