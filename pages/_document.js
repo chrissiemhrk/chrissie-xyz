@@ -10,7 +10,8 @@ class MyDocument extends Document {
     const meta = {
       title: 'Chrissie Muhorakeye',
       description: 'Chrissie Muhorakeye’s website.',
-      image: '../public/images/metaimage.avif'
+      image:
+        'https://res.cloudinary.com/chrissiemhrk/image/upload/v1647759008/metaimage_nalcb4.png'
     }
 
     return (
