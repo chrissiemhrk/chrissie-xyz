@@ -34,21 +34,21 @@ const index = () => {
           I enjoy meeting new people, learning new things, and helping with
           interesting projects. Connect with me on{' '}
           <a
-            href="https:/github.com/chrissiemhrk"
+            href="https://github.com/chrissiemhrk"
             className="underline font-normal"
           >
             GitHub
           </a>
           ,{' '}
           <a
-            href="https:/twitter.com/chrissiemhrk"
+            href="https://twitter.com/chrissiemhrk"
             className="underline font-normal"
           >
             Twitter
           </a>
           , or{' '}
           <a
-            href="https:/linkedin.com/in/chrissiemhrk"
+            href="https://linkedin.com/in/chrissiemhrk"
             className="underline font-normal"
           >
             LinkedIn
